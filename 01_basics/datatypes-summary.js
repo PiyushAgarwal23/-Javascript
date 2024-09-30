@@ -34,4 +34,19 @@ const myFunction = function(){
 
 console.log(typeof anotherId);
 
-// https://262.ecma-international.org/5.1/#sec-11.4.3
+// https://262.ecma-international.org/5.1/#sec-11.4.
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(prmitive)= we will get the copy of value we stored in variable, 
+
+//Heap(Non primitive)= we get the refrenve of the value.
+
+let name= "Piyush"
+let anotherName = name
+console.log(anotherName);
+
+
+ 
